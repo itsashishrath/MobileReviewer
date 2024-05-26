@@ -16,7 +16,7 @@ Follow these steps to install and run the Mobile Reviewer project on your local 
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/yourusername/mobilereviewer.git
+    git clone https://github.com/itsashishrath/mobilereviewer.git
     cd mobilereviewer
     ```
 
@@ -35,6 +35,14 @@ Follow these steps to install and run the Mobile Reviewer project on your local 
     - Obtain a YouTube Data API key from [Google Cloud Console](https://console.cloud.google.com/).
     - Obtain an API key for Google Generative AI from [Google AI](https://ai.google.dev/).
     - Set up the environment variables:
+
+        On **Windows**:
+        ```cmd
+        setx GOOGLEAPIKEY "your_youtube_data_api_key"
+        setx GEMINISTUDIOKEY "your_google_ai_api_key"
+        ```
+
+        On **macOS/Linux**:
         ```bash
         export GOOGLEAPIKEY='your_youtube_data_api_key'
         export GEMINISTUDIOKEY='your_google_ai_api_key'
